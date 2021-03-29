@@ -1,0 +1,41 @@
+using namespace std;
+
+int main ()
+{
+	string nome="Gabriel";
+	int idade=0;
+	cout << "______---------------------------------------------------------_______" << endl;
+	cout << "                     BEM VINDO AO JOCKEY CLUB!!!!!                    " << endl;
+	cout <<"_______--------------------------------------------------------________" << endl;
+	cout <<"                 PARTICIPE DO NOSSO GRANDE TORNEIO !!!!!!              " << endl;
+	cout <<"-----------------------------------------------------------------------" << endl;
+	cout << "Digite seu nome: ";
+	cin >> nome;
+	cout << "Digite sua idade:  ";
+	cin >> idade;		
+	if (idade >=7 && idade <= 12)
+	{
+		cout << "Voce esta inscrito na categoria INFANTIL! ";
+	}
+	else if (idade >= 13 && idade <= 17)
+	{
+		cout << "Voce esta inscrito na categoria JUVENIL! ";
+	}
+	else if (idade >= 18 && idade <= 49)
+	{
+		cout << "Voce esta inscrito na categoria ADULTO! ";
+	}
+	else if (idade >= 50)
+	{
+		cout << "Voce esta inscrito na categoria SENIOR! ";
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
